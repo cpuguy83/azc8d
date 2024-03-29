@@ -1,6 +1,9 @@
 Example tool to use containerd to pull from ACR registries using the Azure SDK for authenticating to an Azure Container Reigstry.
 This example requires containerd >= 1.7 due to its use of the containerd transfer service, but older versions could be used by replacing the transfer service usage with `client.Pull`
 
+
+*This if for example purposes only*
+
 ### Usage
 
 ```console
