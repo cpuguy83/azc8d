@@ -44,6 +44,7 @@ func main() {
 
 	if flag.NArg() != 1 {
 		fmt.Fprintln(os.Stderr, "Must provide an image to pull")
+		os.Exit(1)
 	}
 
 	if err := do(ctx, *nsFl, *addrFl, flag.Arg(0)); err != nil {
