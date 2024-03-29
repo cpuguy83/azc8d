@@ -6,7 +6,7 @@ This example requires containerd >= 1.7 due to its use of the containerd transfe
 ```console
 $ az login --identity
 $ go run . <name>.acurecr.io/<repo>:<tag>
-# <output redacted>
+# <output elided>
 ```
 
 Replace `<name>` with the name of your ACR instance and `<repo>:<tag>` with the image/tag you want to pull from.
